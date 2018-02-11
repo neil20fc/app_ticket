@@ -1,0 +1,1474 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'mongoose' ]
+2 info using npm@2.15.1
+3 info using node@v0.10.48
+4 verbose node symlink /usr/bin/node
+5 verbose install initial load of /home/sadham/Documentos/nirex/app/myapp/package.json
+6 verbose installManyTop reading scoped package data from /home/sadham/Documentos/nirex/app/myapp/node_modules/body-parser/package.json
+7 verbose installManyTop reading scoped package data from /home/sadham/Documentos/nirex/app/myapp/node_modules/cookie-parser/package.json
+8 verbose installManyTop reading scoped package data from /home/sadham/Documentos/nirex/app/myapp/node_modules/debug/package.json
+9 verbose installManyTop reading scoped package data from /home/sadham/Documentos/nirex/app/myapp/node_modules/express/package.json
+10 verbose installManyTop reading scoped package data from /home/sadham/Documentos/nirex/app/myapp/node_modules/jade/package.json
+11 verbose installManyTop reading scoped package data from /home/sadham/Documentos/nirex/app/myapp/node_modules/morgan/package.json
+12 verbose installManyTop reading scoped package data from /home/sadham/Documentos/nirex/app/myapp/node_modules/serve-favicon/package.json
+13 verbose readDependencies loading dependencies from /home/sadham/Documentos/nirex/app/myapp/package.json
+14 silly cache add args [ 'mongoose', null ]
+15 verbose cache add spec mongoose
+16 silly cache add parsed spec { raw: 'mongoose',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'mongoose',
+16 silly cache add   rawSpec: '',
+16 silly cache add   spec: 'latest',
+16 silly cache add   type: 'tag' }
+17 silly addNamed mongoose@latest
+18 verbose addNamed "latest" is being treated as a dist-tag for mongoose
+19 info addNameTag [ 'mongoose', 'latest' ]
+20 silly mapToRegistry name mongoose
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data { raw: 'mongoose',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'mongoose',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+25 verbose addNameTag registry:https://registry.npmjs.org/mongoose not in flight; fetching
+26 verbose request uri https://registry.npmjs.org/mongoose
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 11:27:08
+29 verbose request id d0c68eb7063863da
+30 verbose etag "2QZ3BVHOYJYTJVA6DLZC44BPU"
+31 http request GET https://registry.npmjs.org/mongoose
+32 http 200 https://registry.npmjs.org/mongoose
+33 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+33 verbose headers   server: 'UploadServer',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'last-modified': 'Sat, 10 Feb 2018 23:42:17 GMT',
+33 verbose headers   etag: '"5a7f8359-b75b8"',
+33 verbose headers   'x-npm-region': 'SA-East',
+33 verbose headers   'content-encoding': 'gzip',
+33 verbose headers   'content-length': '59650',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Sun, 11 Feb 2018 16:27:14 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '591',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-gru17125-GRU',
+33 verbose headers   'x-cache': 'HIT',
+33 verbose headers   'x-cache-hits': '1',
+33 verbose headers   'x-timer': 'S1518366434.486184,VS0,VE1',
+33 verbose headers   vary: 'Accept-Encoding, Accept' }
+34 silly get cb [ 200,
+34 silly get   { 'content-type': 'application/json; charset=UTF-8',
+34 silly get     server: 'UploadServer',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'last-modified': 'Sat, 10 Feb 2018 23:42:17 GMT',
+34 silly get     etag: '"5a7f8359-b75b8"',
+34 silly get     'x-npm-region': 'SA-East',
+34 silly get     'content-encoding': 'gzip',
+34 silly get     'content-length': '59650',
+34 silly get     'accept-ranges': 'bytes',
+34 silly get     date: 'Sun, 11 Feb 2018 16:27:14 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     age: '591',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-gru17125-GRU',
+34 silly get     'x-cache': 'HIT',
+34 silly get     'x-cache-hits': '1',
+34 silly get     'x-timer': 'S1518366434.486184,VS0,VE1',
+34 silly get     vary: 'Accept-Encoding, Accept' } ]
+35 verbose get saving mongoose to /home/sadham/.npm/registry.npmjs.org/mongoose/.cache.json
+36 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+37 silly addNameTag next cb for mongoose with tag latest
+38 silly addNamed mongoose@5.0.4
+39 verbose addNamed "5.0.4" is a plain semver version for mongoose
+40 silly mapToRegistry name mongoose
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry data { raw: 'mongoose',
+43 silly mapToRegistry   scope: null,
+43 silly mapToRegistry   name: 'mongoose',
+43 silly mapToRegistry   rawSpec: '',
+43 silly mapToRegistry   spec: 'latest',
+43 silly mapToRegistry   type: 'tag' }
+44 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+45 verbose addRemoteTarball https://registry.npmjs.org/mongoose/-/mongoose-5.0.4.tgz not in flight; adding
+46 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-5.0.4.tgz',
+46 verbose addRemoteTarball   'de30d256ff10c6d93654317ce7624c12ddeeb34f' ]
+47 info retry fetch attempt 1 at 11:27:14
+48 info attempt registry request try #1 at 11:27:14
+49 http fetch GET https://registry.npmjs.org/mongoose/-/mongoose-5.0.4.tgz
+50 http fetch 200 https://registry.npmjs.org/mongoose/-/mongoose-5.0.4.tgz
+51 silly fetchAndShaCheck shasum de30d256ff10c6d93654317ce7624c12ddeeb34f
+52 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/mongoose/-/mongoose-5.0.4.tgz not in flight; adding
+53 verbose addTmpTarball already have metadata; skipping unpack for mongoose@5.0.4
+54 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+55 silly cache afterAdd mongoose@5.0.4
+56 verbose afterAdd /home/sadham/.npm/mongoose/5.0.4/package/package.json not in flight; writing
+57 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /home/sadham/.npm/mongoose/5.0.4/package/package.json written
+59 silly install resolved [ { name: 'mongoose',
+59 silly install resolved     description: 'Mongoose MongoDB ODM',
+59 silly install resolved     version: '5.0.4',
+59 silly install resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+59 silly install resolved     keywords:
+59 silly install resolved      [ 'mongodb',
+59 silly install resolved        'document',
+59 silly install resolved        'model',
+59 silly install resolved        'schema',
+59 silly install resolved        'database',
+59 silly install resolved        'odm',
+59 silly install resolved        'data',
+59 silly install resolved        'datastore',
+59 silly install resolved        'query',
+59 silly install resolved        'nosql',
+59 silly install resolved        'orm',
+59 silly install resolved        'db' ],
+59 silly install resolved     license: 'MIT',
+59 silly install resolved     dependencies:
+59 silly install resolved      { async: '2.1.4',
+59 silly install resolved        bson: '~1.0.4',
+59 silly install resolved        kareem: '2.0.4',
+59 silly install resolved        'lodash.get': '4.4.2',
+59 silly install resolved        mongodb: '3.0.2',
+59 silly install resolved        'mongoose-legacy-pluralize': '1.0.2',
+59 silly install resolved        mpath: '0.3.0',
+59 silly install resolved        mquery: '3.0.0',
+59 silly install resolved        ms: '2.0.0',
+59 silly install resolved        'regexp-clone': '0.0.1',
+59 silly install resolved        sliced: '1.0.1' },
+59 silly install resolved     devDependencies:
+59 silly install resolved      { acquit: '0.5.1',
+59 silly install resolved        'acquit-ignore': '0.0.3',
+59 silly install resolved        benchmark: '2.1.2',
+59 silly install resolved        bluebird: '3.5.0',
+59 silly install resolved        co: '4.6.0',
+59 silly install resolved        dox: '0.3.1',
+59 silly install resolved        eslint: '4.14.0',
+59 silly install resolved        'highlight.js': '9.1.0',
+59 silly install resolved        jade: '1.11.0',
+59 silly install resolved        lodash: '4.16.6',
+59 silly install resolved        markdown: '0.5.0',
+59 silly install resolved        marked: '0.3.9',
+59 silly install resolved        mocha: '4.1.0',
+59 silly install resolved        'mongodb-topology-manager': '1.0.11',
+59 silly install resolved        'mongoose-long': '0.1.1',
+59 silly install resolved        'node-static': '0.7.10',
+59 silly install resolved        nsp: '~2.8.1',
+59 silly install resolved        nyc: '11.4.1',
+59 silly install resolved        'power-assert': '1.4.1',
+59 silly install resolved        q: '1.5.1',
+59 silly install resolved        tbd: '0.6.4',
+59 silly install resolved        uuid: '2.0.3',
+59 silly install resolved        'uuid-parse': '1.0.0',
+59 silly install resolved        validator: '5.4.0' },
+59 silly install resolved     directories: { lib: './lib/mongoose' },
+59 silly install resolved     scripts:
+59 silly install resolved      { 'fix-lint': 'eslint . --fix',
+59 silly install resolved        lint: 'eslint . --quiet',
+59 silly install resolved        nsp: 'nsp check',
+59 silly install resolved        release: 'git push origin master --tags && npm publish',
+59 silly install resolved        'release-legacy': 'git push origin 4.x --tags && npm publish --tag legacy',
+59 silly install resolved        test: 'mocha --exit test/*.test.js test/**/*.test.js',
+59 silly install resolved        'test-cov': 'nyc --reporter=html --reporter=text npm test' },
+59 silly install resolved     main: './index.js',
+59 silly install resolved     engines: { node: '>=4.0.0' },
+59 silly install resolved     bugs: { url: 'https://github.com/Automattic/mongoose/issues/new' },
+59 silly install resolved     repository: { type: 'git', url: 'git://github.com/Automattic/mongoose.git' },
+59 silly install resolved     homepage: 'http://mongoosejs.com',
+59 silly install resolved     browser: 'lib/browser.js',
+59 silly install resolved     eslintConfig:
+59 silly install resolved      { extends: [Object],
+59 silly install resolved        parserOptions: [Object],
+59 silly install resolved        env: [Object],
+59 silly install resolved        rules: [Object] },
+59 silly install resolved     gitHead: 'ebe5b2fd544126cf41477c1b3976c6e2c7a1c2ff',
+59 silly install resolved     _id: 'mongoose@5.0.4',
+59 silly install resolved     _npmVersion: '5.6.0',
+59 silly install resolved     _nodeVersion: '8.9.4',
+59 silly install resolved     _npmUser: { name: 'vkarpov15', email: 'val@karpov.io' },
+59 silly install resolved     dist:
+59 silly install resolved      { integrity: 'sha512-FHH27E2vXemU0Nb6z3so7mO1/UwEZHyM/XMBJcVkmfpTcKRSZ5CmJoIk12yN/U2pFNFTILVbLFWCTD+mB5kU5w==',
+59 silly install resolved        shasum: 'de30d256ff10c6d93654317ce7624c12ddeeb34f',
+59 silly install resolved        tarball: 'https://registry.npmjs.org/mongoose/-/mongoose-5.0.4.tgz',
+59 silly install resolved        fileCount: 166,
+59 silly install resolved        unpackedSize: 995898 },
+59 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+59 silly install resolved     _npmOperationalInternal:
+59 silly install resolved      { host: 's3://npm-registry-packages',
+59 silly install resolved        tmp: 'tmp/mongoose_5.0.4_1518125693439_0.8355254300447548' },
+59 silly install resolved     _shasum: 'de30d256ff10c6d93654317ce7624c12ddeeb34f',
+59 silly install resolved     _resolved: 'https://registry.npmjs.org/mongoose/-/mongoose-5.0.4.tgz',
+59 silly install resolved     _from: 'mongoose@latest' } ]
+60 info install mongoose@5.0.4 into /home/sadham/Documentos/nirex/app/myapp
+61 info installOne mongoose@5.0.4
+62 verbose installOne of mongoose to /home/sadham/Documentos/nirex/app/myapp not in flight; installing
+63 verbose correctMkdir /home/sadham/.npm/_locks correctMkdir not in flight; initializing
+64 verbose lock using /home/sadham/.npm/_locks/mongoose-0aba830b3356456f.lock for /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+65 warn engine mongoose@5.0.4: wanted: {"node":">=4.0.0"} (current: {"node":"0.10.48","npm":"2.15.1"})
+66 silly install write writing mongoose 5.0.4 to /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+67 verbose unbuild node_modules/mongoose
+68 silly gentlyRm /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose is being purged from base /home/sadham/Documentos/nirex/app/myapp
+69 verbose gentlyRm don't care about contents; nuking /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+70 verbose tar unpack /home/sadham/.npm/mongoose/5.0.4/package.tgz
+71 verbose tar unpacking to /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+72 silly gentlyRm /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose is being purged
+73 verbose gentlyRm don't care about contents; nuking /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+74 silly gunzTarPerm modes [ '775', '664' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm extractEntry .eslintignore
+77 silly gunzTarPerm extractEntry .travis.yml
+78 silly gunzTarPerm extractEntry CONTRIBUTING.md
+79 silly gunzTarPerm extractEntry d1c5478c698dcae9731751e285eef3c431a8f213.patch
+80 silly gunzTarPerm extractEntry docs.html
+81 silly gunzTarPerm extractEntry History.md
+82 silly gunzTarPerm extractEntry index.js
+83 silly gunzTarPerm extractEntry migrating_to_5.md
+84 silly gunzTarPerm extractEntry mongoose5_transparent.png
+85 silly gunzTarPerm extractEntry README.md
+86 silly gunzTarPerm extractEntry release-items.md
+87 silly gunzTarPerm extractEntry static.js
+88 silly gunzTarPerm extractEntry test.js
+89 silly gunzTarPerm extractEntry website.js
+90 silly gunzTarPerm extractEntry .github/ISSUE_TEMPLATE.md
+91 silly gunzTarPerm extractEntry .github/PULL_REQUEST_TEMPLATE.md
+92 silly gunzTarPerm extractEntry examples/aggregate/aggregate.js
+93 silly gunzTarPerm extractEntry examples/aggregate/package.json
+94 silly gunzTarPerm extractEntry examples/aggregate/person.js
+95 silly gunzTarPerm extractEntry examples/doc-methods.js
+96 silly gunzTarPerm extractEntry examples/express/connection-sharing/app.js
+97 silly gunzTarPerm extractEntry examples/express/connection-sharing/modelA.js
+98 silly gunzTarPerm extractEntry examples/express/connection-sharing/package.json
+99 silly gunzTarPerm extractEntry examples/express/connection-sharing/README.md
+100 silly gunzTarPerm extractEntry examples/express/connection-sharing/routes.js
+101 silly gunzTarPerm extractEntry examples/express/README.md
+102 silly gunzTarPerm extractEntry examples/geospatial/geoJSONexample.js
+103 silly gunzTarPerm extractEntry examples/geospatial/geoJSONSchema.js
+104 silly gunzTarPerm extractEntry examples/geospatial/geospatial.js
+105 silly gunzTarPerm extractEntry examples/geospatial/package.json
+106 silly gunzTarPerm extractEntry examples/geospatial/person.js
+107 silly gunzTarPerm extractEntry examples/globalschemas/gs_example.js
+108 silly gunzTarPerm extractEntry examples/globalschemas/person.js
+109 silly gunzTarPerm extractEntry examples/lean/lean.js
+110 silly gunzTarPerm extractEntry examples/lean/package.json
+111 silly gunzTarPerm extractEntry examples/lean/person.js
+112 silly gunzTarPerm extractEntry examples/mapreduce/mapreduce.js
+113 silly gunzTarPerm extractEntry examples/mapreduce/package.json
+114 silly gunzTarPerm extractEntry examples/mapreduce/person.js
+115 silly gunzTarPerm extractEntry examples/population/population-across-three-collections.js
+116 silly gunzTarPerm extractEntry examples/population/population-basic.js
+117 silly gunzTarPerm extractEntry examples/population/population-of-existing-doc.js
+118 silly gunzTarPerm extractEntry examples/population/population-of-multiple-existing-docs.js
+119 silly gunzTarPerm extractEntry examples/population/population-options.js
+120 silly gunzTarPerm extractEntry examples/population/population-plain-objects.js
+121 silly gunzTarPerm extractEntry examples/promises/package.json
+122 silly gunzTarPerm extractEntry examples/promises/person.js
+123 silly gunzTarPerm extractEntry examples/promises/promise.js
+124 silly gunzTarPerm extractEntry examples/querybuilder/package.json
+125 silly gunzTarPerm extractEntry examples/querybuilder/person.js
+126 silly gunzTarPerm extractEntry examples/querybuilder/querybuilder.js
+127 silly gunzTarPerm extractEntry examples/README.md
+128 silly gunzTarPerm extractEntry examples/replicasets/package.json
+129 silly gunzTarPerm extractEntry examples/replicasets/person.js
+130 silly gunzTarPerm extractEntry examples/replicasets/replica-sets.js
+131 silly gunzTarPerm extractEntry examples/schema/schema.js
+132 silly gunzTarPerm extractEntry examples/schema/storing-schemas-as-json/index.js
+133 silly gunzTarPerm extractEntry examples/schema/storing-schemas-as-json/schema.json
+134 silly gunzTarPerm extractEntry examples/statics/person.js
+135 silly gunzTarPerm extractEntry examples/statics/statics.js
+136 silly gunzTarPerm extractEntry lib/aggregate.js
+137 silly gunzTarPerm extractEntry lib/browser.js
+138 silly gunzTarPerm extractEntry lib/browserDocument.js
+139 silly gunzTarPerm extractEntry lib/cast.js
+140 silly gunzTarPerm extractEntry lib/collection.js
+141 silly gunzTarPerm extractEntry lib/connection.js
+142 silly gunzTarPerm extractEntry lib/connectionstate.js
+143 silly gunzTarPerm extractEntry lib/cursor/AggregationCursor.js
+144 silly gunzTarPerm extractEntry lib/cursor/ChangeStream.js
+145 silly gunzTarPerm extractEntry lib/cursor/QueryCursor.js
+146 silly gunzTarPerm extractEntry lib/document_provider.js
+147 silly gunzTarPerm extractEntry lib/document_provider.web.js
+148 silly gunzTarPerm extractEntry lib/document.js
+149 silly gunzTarPerm extractEntry lib/drivers/browser/binary.js
+150 silly gunzTarPerm extractEntry lib/drivers/browser/decimal128.js
+151 silly gunzTarPerm extractEntry lib/drivers/browser/index.js
+152 silly gunzTarPerm extractEntry lib/drivers/browser/objectid.js
+153 silly gunzTarPerm extractEntry lib/drivers/browser/ReadPreference.js
+154 silly gunzTarPerm extractEntry lib/drivers/index.js
+155 silly gunzTarPerm extractEntry lib/drivers/index.web.js
+156 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+157 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+158 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+159 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/decimal128.js
+160 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/index.js
+161 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+162 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/ReadPreference.js
+163 silly gunzTarPerm extractEntry lib/drivers/SPEC.md
+164 silly gunzTarPerm extractEntry lib/error/browserMissingSchema.js
+165 silly gunzTarPerm extractEntry lib/error/cast.js
+166 silly gunzTarPerm extractEntry lib/error/disconnected.js
+167 silly gunzTarPerm extractEntry lib/error/divergentArray.js
+168 silly gunzTarPerm extractEntry lib/error/index.js
+169 silly gunzTarPerm extractEntry lib/error/messages.js
+170 silly gunzTarPerm extractEntry lib/error/missingSchema.js
+171 silly gunzTarPerm extractEntry lib/error/notFound.js
+172 silly gunzTarPerm extractEntry lib/error/objectExpected.js
+173 silly gunzTarPerm extractEntry lib/error/objectParameter.js
+174 silly gunzTarPerm extractEntry lib/error/overwriteModel.js
+175 silly gunzTarPerm extractEntry lib/error/strict.js
+176 silly gunzTarPerm extractEntry lib/error/validation.js
+177 silly gunzTarPerm extractEntry lib/error/validator.js
+178 silly gunzTarPerm extractEntry lib/error/version.js
+179 silly gunzTarPerm extractEntry lib/index.js
+180 silly gunzTarPerm extractEntry lib/internal.js
+181 silly gunzTarPerm extractEntry lib/model.js
+182 silly gunzTarPerm extractEntry lib/options.js
+183 silly gunzTarPerm extractEntry lib/plugins/idGetter.js
+184 silly gunzTarPerm extractEntry lib/plugins/removeSubdocs.js
+185 silly gunzTarPerm extractEntry lib/plugins/saveSubdocs.js
+186 silly gunzTarPerm extractEntry lib/plugins/sharding.js
+187 silly gunzTarPerm extractEntry lib/plugins/validateBeforeSave.js
+188 silly gunzTarPerm extractEntry lib/promise_provider.js
+189 silly gunzTarPerm extractEntry lib/query.js
+190 silly gunzTarPerm extractEntry lib/queryhelpers.js
+191 silly gunzTarPerm extractEntry lib/schema.js
+192 silly gunzTarPerm extractEntry lib/schema/array.js
+193 silly gunzTarPerm extractEntry lib/schema/boolean.js
+194 silly gunzTarPerm extractEntry lib/schema/buffer.js
+195 silly gunzTarPerm extractEntry lib/schema/date.js
+196 silly gunzTarPerm extractEntry lib/schema/decimal128.js
+197 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+198 silly gunzTarPerm extractEntry lib/schema/embedded.js
+199 silly gunzTarPerm extractEntry lib/schema/index.js
+200 silly gunzTarPerm extractEntry lib/schema/mixed.js
+201 silly gunzTarPerm extractEntry lib/schema/number.js
+202 silly gunzTarPerm extractEntry lib/schema/objectid.js
+203 silly gunzTarPerm extractEntry lib/schema/operators/bitwise.js
+204 silly gunzTarPerm extractEntry lib/schema/operators/exists.js
+205 silly gunzTarPerm extractEntry lib/schema/operators/geospatial.js
+206 silly gunzTarPerm extractEntry lib/schema/operators/helpers.js
+207 silly gunzTarPerm extractEntry lib/schema/operators/type.js
+208 silly gunzTarPerm extractEntry lib/schema/string.js
+209 silly gunzTarPerm extractEntry lib/schematype.js
+210 silly gunzTarPerm extractEntry lib/services/common.js
+211 silly gunzTarPerm extractEntry lib/services/cursor/eachAsync.js
+212 silly gunzTarPerm extractEntry lib/services/document/cleanModifiedSubpaths.js
+213 silly gunzTarPerm extractEntry lib/services/document/compile.js
+214 silly gunzTarPerm extractEntry lib/services/model/applyHooks.js
+215 silly gunzTarPerm extractEntry lib/services/model/applyMethods.js
+216 silly gunzTarPerm extractEntry lib/services/model/applyStatics.js
+217 silly gunzTarPerm extractEntry lib/services/model/discriminator.js
+218 silly gunzTarPerm extractEntry lib/services/populate/getSchemaTypes.js
+219 silly gunzTarPerm extractEntry lib/services/projection/isDefiningProjection.js
+220 silly gunzTarPerm extractEntry lib/services/projection/isInclusive.js
+221 silly gunzTarPerm extractEntry lib/services/projection/isPathSelectedInclusive.js
+222 silly gunzTarPerm extractEntry lib/services/query/castUpdate.js
+223 silly gunzTarPerm extractEntry lib/services/query/hasDollarKeys.js
+224 silly gunzTarPerm extractEntry lib/services/query/selectPopulatedFields.js
+225 silly gunzTarPerm extractEntry lib/services/setDefaultsOnInsert.js
+226 silly gunzTarPerm extractEntry lib/services/updateValidators.js
+227 silly gunzTarPerm extractEntry lib/statemachine.js
+228 silly gunzTarPerm extractEntry lib/types/array.js
+229 silly gunzTarPerm extractEntry lib/types/buffer.js
+230 silly gunzTarPerm extractEntry lib/types/decimal128.js
+231 silly gunzTarPerm extractEntry lib/types/documentarray.js
+232 silly gunzTarPerm extractEntry lib/types/embedded.js
+233 silly gunzTarPerm extractEntry lib/types/index.js
+234 silly gunzTarPerm extractEntry lib/types/objectid.js
+235 silly gunzTarPerm extractEntry lib/types/subdocument.js
+236 silly gunzTarPerm extractEntry lib/utils.js
+237 silly gunzTarPerm extractEntry lib/virtualtype.js
+238 silly gunzTarPerm extractEntry tools/auth.js
+239 silly gunzTarPerm extractEntry tools/repl.js
+240 silly gunzTarPerm extractEntry tools/sharded.js
+241 verbose write writing to /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose/package.json
+242 info preinstall mongoose@5.0.4
+243 verbose readDependencies loading dependencies from /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose/package.json
+244 silly prepareForInstallMany adding async@2.1.4 from mongoose dependencies
+245 silly prepareForInstallMany adding bson@~1.0.4 from mongoose dependencies
+246 silly prepareForInstallMany adding kareem@2.0.4 from mongoose dependencies
+247 silly prepareForInstallMany adding lodash.get@4.4.2 from mongoose dependencies
+248 silly prepareForInstallMany adding mongodb@3.0.2 from mongoose dependencies
+249 silly prepareForInstallMany adding mongoose-legacy-pluralize@1.0.2 from mongoose dependencies
+250 silly prepareForInstallMany adding mpath@0.3.0 from mongoose dependencies
+251 silly prepareForInstallMany adding mquery@3.0.0 from mongoose dependencies
+252 silly prepareForInstallMany adding ms@2.0.0 from mongoose dependencies
+253 silly prepareForInstallMany adding regexp-clone@0.0.1 from mongoose dependencies
+254 silly prepareForInstallMany adding sliced@1.0.1 from mongoose dependencies
+255 verbose readDependencies loading dependencies from /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose/package.json
+256 silly cache add args [ 'async@2.1.4', null ]
+257 verbose cache add spec async@2.1.4
+258 silly cache add args [ 'bson@~1.0.4', null ]
+259 verbose cache add spec bson@~1.0.4
+260 silly cache add parsed spec { raw: 'async@2.1.4',
+260 silly cache add   scope: null,
+260 silly cache add   name: 'async',
+260 silly cache add   rawSpec: '2.1.4',
+260 silly cache add   spec: '2.1.4',
+260 silly cache add   type: 'version' }
+261 silly addNamed async@2.1.4
+262 verbose addNamed "2.1.4" is a plain semver version for async
+263 silly mapToRegistry name async
+264 silly mapToRegistry using default registry
+265 silly mapToRegistry registry https://registry.npmjs.org/
+266 silly mapToRegistry data { raw: 'async',
+266 silly mapToRegistry   scope: null,
+266 silly mapToRegistry   name: 'async',
+266 silly mapToRegistry   rawSpec: '',
+266 silly mapToRegistry   spec: 'latest',
+266 silly mapToRegistry   type: 'tag' }
+267 silly mapToRegistry uri https://registry.npmjs.org/async
+268 verbose addNameVersion registry:https://registry.npmjs.org/async not in flight; fetching
+269 silly cache add parsed spec { raw: 'bson@~1.0.4',
+269 silly cache add   scope: null,
+269 silly cache add   name: 'bson',
+269 silly cache add   rawSpec: '~1.0.4',
+269 silly cache add   spec: '>=1.0.4 <1.1.0',
+269 silly cache add   type: 'range' }
+270 silly addNamed bson@>=1.0.4 <1.1.0
+271 verbose addNamed ">=1.0.4 <1.1.0" is a valid semver range for bson
+272 silly addNameRange { name: 'bson', range: '>=1.0.4 <1.1.0', hasData: false }
+273 silly mapToRegistry name bson
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry data { raw: 'bson',
+276 silly mapToRegistry   scope: null,
+276 silly mapToRegistry   name: 'bson',
+276 silly mapToRegistry   rawSpec: '',
+276 silly mapToRegistry   spec: 'latest',
+276 silly mapToRegistry   type: 'tag' }
+277 silly mapToRegistry uri https://registry.npmjs.org/bson
+278 verbose addNameRange registry:https://registry.npmjs.org/bson not in flight; fetching
+279 silly cache add args [ 'kareem@2.0.4', null ]
+280 verbose cache add spec kareem@2.0.4
+281 silly cache add parsed spec { raw: 'kareem@2.0.4',
+281 silly cache add   scope: null,
+281 silly cache add   name: 'kareem',
+281 silly cache add   rawSpec: '2.0.4',
+281 silly cache add   spec: '2.0.4',
+281 silly cache add   type: 'version' }
+282 silly addNamed kareem@2.0.4
+283 verbose addNamed "2.0.4" is a plain semver version for kareem
+284 silly mapToRegistry name kareem
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry data { raw: 'kareem',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   name: 'kareem',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://registry.npmjs.org/kareem
+289 verbose addNameVersion registry:https://registry.npmjs.org/kareem not in flight; fetching
+290 silly cache add args [ 'lodash.get@4.4.2', null ]
+291 verbose cache add spec lodash.get@4.4.2
+292 silly cache add parsed spec { raw: 'lodash.get@4.4.2',
+292 silly cache add   scope: null,
+292 silly cache add   name: 'lodash.get',
+292 silly cache add   rawSpec: '4.4.2',
+292 silly cache add   spec: '4.4.2',
+292 silly cache add   type: 'version' }
+293 silly addNamed lodash.get@4.4.2
+294 verbose addNamed "4.4.2" is a plain semver version for lodash.get
+295 silly mapToRegistry name lodash.get
+296 silly mapToRegistry using default registry
+297 silly mapToRegistry registry https://registry.npmjs.org/
+298 silly mapToRegistry data { raw: 'lodash.get',
+298 silly mapToRegistry   scope: null,
+298 silly mapToRegistry   name: 'lodash.get',
+298 silly mapToRegistry   rawSpec: '',
+298 silly mapToRegistry   spec: 'latest',
+298 silly mapToRegistry   type: 'tag' }
+299 silly mapToRegistry uri https://registry.npmjs.org/lodash.get
+300 verbose addNameVersion registry:https://registry.npmjs.org/lodash.get not in flight; fetching
+301 silly cache add args [ 'mongodb@3.0.2', null ]
+302 verbose cache add spec mongodb@3.0.2
+303 silly cache add parsed spec { raw: 'mongodb@3.0.2',
+303 silly cache add   scope: null,
+303 silly cache add   name: 'mongodb',
+303 silly cache add   rawSpec: '3.0.2',
+303 silly cache add   spec: '3.0.2',
+303 silly cache add   type: 'version' }
+304 silly addNamed mongodb@3.0.2
+305 verbose addNamed "3.0.2" is a plain semver version for mongodb
+306 silly mapToRegistry name mongodb
+307 silly mapToRegistry using default registry
+308 silly mapToRegistry registry https://registry.npmjs.org/
+309 silly mapToRegistry data { raw: 'mongodb',
+309 silly mapToRegistry   scope: null,
+309 silly mapToRegistry   name: 'mongodb',
+309 silly mapToRegistry   rawSpec: '',
+309 silly mapToRegistry   spec: 'latest',
+309 silly mapToRegistry   type: 'tag' }
+310 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+311 verbose addNameVersion registry:https://registry.npmjs.org/mongodb not in flight; fetching
+312 silly cache add args [ 'mongoose-legacy-pluralize@1.0.2', null ]
+313 verbose cache add spec mongoose-legacy-pluralize@1.0.2
+314 silly cache add parsed spec { raw: 'mongoose-legacy-pluralize@1.0.2',
+314 silly cache add   scope: null,
+314 silly cache add   name: 'mongoose-legacy-pluralize',
+314 silly cache add   rawSpec: '1.0.2',
+314 silly cache add   spec: '1.0.2',
+314 silly cache add   type: 'version' }
+315 silly addNamed mongoose-legacy-pluralize@1.0.2
+316 verbose addNamed "1.0.2" is a plain semver version for mongoose-legacy-pluralize
+317 silly mapToRegistry name mongoose-legacy-pluralize
+318 silly mapToRegistry using default registry
+319 silly mapToRegistry registry https://registry.npmjs.org/
+320 silly mapToRegistry data { raw: 'mongoose-legacy-pluralize',
+320 silly mapToRegistry   scope: null,
+320 silly mapToRegistry   name: 'mongoose-legacy-pluralize',
+320 silly mapToRegistry   rawSpec: '',
+320 silly mapToRegistry   spec: 'latest',
+320 silly mapToRegistry   type: 'tag' }
+321 silly mapToRegistry uri https://registry.npmjs.org/mongoose-legacy-pluralize
+322 verbose addNameVersion registry:https://registry.npmjs.org/mongoose-legacy-pluralize not in flight; fetching
+323 silly cache add args [ 'mpath@0.3.0', null ]
+324 verbose cache add spec mpath@0.3.0
+325 silly cache add parsed spec { raw: 'mpath@0.3.0',
+325 silly cache add   scope: null,
+325 silly cache add   name: 'mpath',
+325 silly cache add   rawSpec: '0.3.0',
+325 silly cache add   spec: '0.3.0',
+325 silly cache add   type: 'version' }
+326 silly addNamed mpath@0.3.0
+327 verbose addNamed "0.3.0" is a plain semver version for mpath
+328 silly mapToRegistry name mpath
+329 silly mapToRegistry using default registry
+330 silly mapToRegistry registry https://registry.npmjs.org/
+331 silly mapToRegistry data { raw: 'mpath',
+331 silly mapToRegistry   scope: null,
+331 silly mapToRegistry   name: 'mpath',
+331 silly mapToRegistry   rawSpec: '',
+331 silly mapToRegistry   spec: 'latest',
+331 silly mapToRegistry   type: 'tag' }
+332 silly mapToRegistry uri https://registry.npmjs.org/mpath
+333 verbose addNameVersion registry:https://registry.npmjs.org/mpath not in flight; fetching
+334 silly cache add args [ 'mquery@3.0.0', null ]
+335 verbose cache add spec mquery@3.0.0
+336 silly cache add parsed spec { raw: 'mquery@3.0.0',
+336 silly cache add   scope: null,
+336 silly cache add   name: 'mquery',
+336 silly cache add   rawSpec: '3.0.0',
+336 silly cache add   spec: '3.0.0',
+336 silly cache add   type: 'version' }
+337 silly addNamed mquery@3.0.0
+338 verbose addNamed "3.0.0" is a plain semver version for mquery
+339 silly mapToRegistry name mquery
+340 silly mapToRegistry using default registry
+341 silly mapToRegistry registry https://registry.npmjs.org/
+342 silly mapToRegistry data { raw: 'mquery',
+342 silly mapToRegistry   scope: null,
+342 silly mapToRegistry   name: 'mquery',
+342 silly mapToRegistry   rawSpec: '',
+342 silly mapToRegistry   spec: 'latest',
+342 silly mapToRegistry   type: 'tag' }
+343 silly mapToRegistry uri https://registry.npmjs.org/mquery
+344 verbose addNameVersion registry:https://registry.npmjs.org/mquery not in flight; fetching
+345 silly cache add args [ 'ms@2.0.0', null ]
+346 verbose cache add spec ms@2.0.0
+347 silly cache add parsed spec { raw: 'ms@2.0.0',
+347 silly cache add   scope: null,
+347 silly cache add   name: 'ms',
+347 silly cache add   rawSpec: '2.0.0',
+347 silly cache add   spec: '2.0.0',
+347 silly cache add   type: 'version' }
+348 silly addNamed ms@2.0.0
+349 verbose addNamed "2.0.0" is a plain semver version for ms
+350 silly mapToRegistry name ms
+351 silly mapToRegistry using default registry
+352 silly mapToRegistry registry https://registry.npmjs.org/
+353 silly mapToRegistry data { raw: 'ms',
+353 silly mapToRegistry   scope: null,
+353 silly mapToRegistry   name: 'ms',
+353 silly mapToRegistry   rawSpec: '',
+353 silly mapToRegistry   spec: 'latest',
+353 silly mapToRegistry   type: 'tag' }
+354 silly mapToRegistry uri https://registry.npmjs.org/ms
+355 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+356 silly cache add args [ 'regexp-clone@0.0.1', null ]
+357 verbose cache add spec regexp-clone@0.0.1
+358 silly cache add parsed spec { raw: 'regexp-clone@0.0.1',
+358 silly cache add   scope: null,
+358 silly cache add   name: 'regexp-clone',
+358 silly cache add   rawSpec: '0.0.1',
+358 silly cache add   spec: '0.0.1',
+358 silly cache add   type: 'version' }
+359 silly addNamed regexp-clone@0.0.1
+360 verbose addNamed "0.0.1" is a plain semver version for regexp-clone
+361 silly mapToRegistry name regexp-clone
+362 silly mapToRegistry using default registry
+363 silly mapToRegistry registry https://registry.npmjs.org/
+364 silly mapToRegistry data { raw: 'regexp-clone',
+364 silly mapToRegistry   scope: null,
+364 silly mapToRegistry   name: 'regexp-clone',
+364 silly mapToRegistry   rawSpec: '',
+364 silly mapToRegistry   spec: 'latest',
+364 silly mapToRegistry   type: 'tag' }
+365 silly mapToRegistry uri https://registry.npmjs.org/regexp-clone
+366 verbose addNameVersion registry:https://registry.npmjs.org/regexp-clone not in flight; fetching
+367 silly cache add args [ 'sliced@1.0.1', null ]
+368 verbose cache add spec sliced@1.0.1
+369 silly cache add parsed spec { raw: 'sliced@1.0.1',
+369 silly cache add   scope: null,
+369 silly cache add   name: 'sliced',
+369 silly cache add   rawSpec: '1.0.1',
+369 silly cache add   spec: '1.0.1',
+369 silly cache add   type: 'version' }
+370 silly addNamed sliced@1.0.1
+371 verbose addNamed "1.0.1" is a plain semver version for sliced
+372 silly mapToRegistry name sliced
+373 silly mapToRegistry using default registry
+374 silly mapToRegistry registry https://registry.npmjs.org/
+375 silly mapToRegistry data { raw: 'sliced',
+375 silly mapToRegistry   scope: null,
+375 silly mapToRegistry   name: 'sliced',
+375 silly mapToRegistry   rawSpec: '',
+375 silly mapToRegistry   spec: 'latest',
+375 silly mapToRegistry   type: 'tag' }
+376 silly mapToRegistry uri https://registry.npmjs.org/sliced
+377 verbose addNameVersion registry:https://registry.npmjs.org/sliced not in flight; fetching
+378 verbose request uri https://registry.npmjs.org/lodash.get
+379 verbose request no auth needed
+380 info attempt registry request try #1 at 11:27:18
+381 http request GET https://registry.npmjs.org/lodash.get
+382 verbose request uri https://registry.npmjs.org/mongoose-legacy-pluralize
+383 verbose request no auth needed
+384 info attempt registry request try #1 at 11:27:18
+385 http request GET https://registry.npmjs.org/mongoose-legacy-pluralize
+386 verbose request uri https://registry.npmjs.org/kareem
+387 verbose request no auth needed
+388 info attempt registry request try #1 at 11:27:18
+389 verbose etag "XGN1MKWM5R2TU4IC3CT06J6G"
+390 http request GET https://registry.npmjs.org/kareem
+391 verbose request uri https://registry.npmjs.org/mpath
+392 verbose request no auth needed
+393 info attempt registry request try #1 at 11:27:18
+394 verbose etag "DD146YM5VNF79SWUY199CJ9P6"
+395 http request GET https://registry.npmjs.org/mpath
+396 verbose request uri https://registry.npmjs.org/ms
+397 verbose request no auth needed
+398 info attempt registry request try #1 at 11:27:18
+399 verbose etag "5a74cafa-4937"
+400 verbose lastModified Fri, 2 Feb 2018 20:32:58 GMT
+401 http request GET https://registry.npmjs.org/ms
+402 verbose request uri https://registry.npmjs.org/mongodb
+403 verbose request no auth needed
+404 info attempt registry request try #1 at 11:27:18
+405 verbose etag "51CL7EOABNR96ASQG1TVIZX2Z"
+406 http request GET https://registry.npmjs.org/mongodb
+407 verbose request uri https://registry.npmjs.org/mquery
+408 verbose request no auth needed
+409 info attempt registry request try #1 at 11:27:18
+410 verbose etag "DAV1S5CPZP5CPPY4AII8WTD7H"
+411 http request GET https://registry.npmjs.org/mquery
+412 verbose request uri https://registry.npmjs.org/sliced
+413 verbose request no auth needed
+414 info attempt registry request try #1 at 11:27:18
+415 verbose etag "1IJEHOZS08YJAIS9YBVL74LDT"
+416 http request GET https://registry.npmjs.org/sliced
+417 verbose request uri https://registry.npmjs.org/regexp-clone
+418 verbose request no auth needed
+419 info attempt registry request try #1 at 11:27:18
+420 verbose etag "AMGTX5SC3OTT0F8UOW43HZ5FK"
+421 http request GET https://registry.npmjs.org/regexp-clone
+422 verbose request uri https://registry.npmjs.org/bson
+423 verbose request no auth needed
+424 info attempt registry request try #1 at 11:27:18
+425 verbose etag "3PEMZ0AC3NMQAQEJRRTZS5D68"
+426 http request GET https://registry.npmjs.org/bson
+427 verbose request uri https://registry.npmjs.org/async
+428 verbose request no auth needed
+429 info attempt registry request try #1 at 11:27:19
+430 verbose etag W/"59c9c5eb-21f72"
+431 verbose lastModified Tue, 26 Sep 2017 03:13:47 GMT
+432 http request GET https://registry.npmjs.org/async
+433 http 200 https://registry.npmjs.org/mongoose-legacy-pluralize
+434 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+434 verbose headers   server: 'UploadServer',
+434 verbose headers   'cache-control': 'max-age=300',
+434 verbose headers   'last-modified': 'Sun, 28 Jan 2018 23:36:14 GMT',
+434 verbose headers   etag: '"5a6e5e6e-1217"',
+434 verbose headers   'x-npm-region': 'SA-East',
+434 verbose headers   'content-encoding': 'gzip',
+434 verbose headers   'content-length': '1212',
+434 verbose headers   'accept-ranges': 'bytes',
+434 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+434 verbose headers   via: '1.1 varnish',
+434 verbose headers   age: '4427',
+434 verbose headers   connection: 'keep-alive',
+434 verbose headers   'x-served-by': 'cache-gru17133-GRU',
+434 verbose headers   'x-cache': 'HIT',
+434 verbose headers   'x-cache-hits': '1',
+434 verbose headers   'x-timer': 'S1518366439.361973,VS0,VE1',
+434 verbose headers   vary: 'Accept-Encoding, Accept' }
+435 silly get cb [ 200,
+435 silly get   { 'content-type': 'application/json; charset=UTF-8',
+435 silly get     server: 'UploadServer',
+435 silly get     'cache-control': 'max-age=300',
+435 silly get     'last-modified': 'Sun, 28 Jan 2018 23:36:14 GMT',
+435 silly get     etag: '"5a6e5e6e-1217"',
+435 silly get     'x-npm-region': 'SA-East',
+435 silly get     'content-encoding': 'gzip',
+435 silly get     'content-length': '1212',
+435 silly get     'accept-ranges': 'bytes',
+435 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+435 silly get     via: '1.1 varnish',
+435 silly get     age: '4427',
+435 silly get     connection: 'keep-alive',
+435 silly get     'x-served-by': 'cache-gru17133-GRU',
+435 silly get     'x-cache': 'HIT',
+435 silly get     'x-cache-hits': '1',
+435 silly get     'x-timer': 'S1518366439.361973,VS0,VE1',
+435 silly get     vary: 'Accept-Encoding, Accept' } ]
+436 verbose get saving mongoose-legacy-pluralize to /home/sadham/.npm/registry.npmjs.org/mongoose-legacy-pluralize/.cache.json
+437 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+438 http 200 https://registry.npmjs.org/kareem
+439 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+439 verbose headers   server: 'UploadServer',
+439 verbose headers   'cache-control': 'max-age=300',
+439 verbose headers   'last-modified': 'Thu, 8 Feb 2018 18:20:58 GMT',
+439 verbose headers   etag: '"5a7c950a-d279"',
+439 verbose headers   'x-npm-region': 'SA-East',
+439 verbose headers   'content-encoding': 'gzip',
+439 verbose headers   'content-length': '7509',
+439 verbose headers   'accept-ranges': 'bytes',
+439 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+439 verbose headers   via: '1.1 varnish',
+439 verbose headers   age: '6165',
+439 verbose headers   connection: 'keep-alive',
+439 verbose headers   'x-served-by': 'cache-gru17120-GRU',
+439 verbose headers   'x-cache': 'HIT',
+439 verbose headers   'x-cache-hits': '1',
+439 verbose headers   'x-timer': 'S1518366439.362029,VS0,VE2',
+439 verbose headers   vary: 'Accept-Encoding, Accept' }
+440 silly get cb [ 200,
+440 silly get   { 'content-type': 'application/json; charset=UTF-8',
+440 silly get     server: 'UploadServer',
+440 silly get     'cache-control': 'max-age=300',
+440 silly get     'last-modified': 'Thu, 8 Feb 2018 18:20:58 GMT',
+440 silly get     etag: '"5a7c950a-d279"',
+440 silly get     'x-npm-region': 'SA-East',
+440 silly get     'content-encoding': 'gzip',
+440 silly get     'content-length': '7509',
+440 silly get     'accept-ranges': 'bytes',
+440 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+440 silly get     via: '1.1 varnish',
+440 silly get     age: '6165',
+440 silly get     connection: 'keep-alive',
+440 silly get     'x-served-by': 'cache-gru17120-GRU',
+440 silly get     'x-cache': 'HIT',
+440 silly get     'x-cache-hits': '1',
+440 silly get     'x-timer': 'S1518366439.362029,VS0,VE2',
+440 silly get     vary: 'Accept-Encoding, Accept' } ]
+441 verbose get saving kareem to /home/sadham/.npm/registry.npmjs.org/kareem/.cache.json
+442 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+443 http 200 https://registry.npmjs.org/mpath
+444 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+444 verbose headers   server: 'UploadServer',
+444 verbose headers   'cache-control': 'max-age=300',
+444 verbose headers   'last-modified': 'Tue, 16 Jan 2018 14:26:48 GMT',
+444 verbose headers   etag: '"5a5e0ba8-3381"',
+444 verbose headers   'x-npm-region': 'SA-East',
+444 verbose headers   'content-encoding': 'gzip',
+444 verbose headers   'content-length': '2993',
+444 verbose headers   'accept-ranges': 'bytes',
+444 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+444 verbose headers   via: '1.1 varnish',
+444 verbose headers   age: '7577',
+444 verbose headers   connection: 'keep-alive',
+444 verbose headers   'x-served-by': 'cache-gru17126-GRU',
+444 verbose headers   'x-cache': 'HIT',
+444 verbose headers   'x-cache-hits': '3',
+444 verbose headers   'x-timer': 'S1518366439.373335,VS0,VE0',
+444 verbose headers   vary: 'Accept-Encoding, Accept' }
+445 silly get cb [ 200,
+445 silly get   { 'content-type': 'application/json; charset=UTF-8',
+445 silly get     server: 'UploadServer',
+445 silly get     'cache-control': 'max-age=300',
+445 silly get     'last-modified': 'Tue, 16 Jan 2018 14:26:48 GMT',
+445 silly get     etag: '"5a5e0ba8-3381"',
+445 silly get     'x-npm-region': 'SA-East',
+445 silly get     'content-encoding': 'gzip',
+445 silly get     'content-length': '2993',
+445 silly get     'accept-ranges': 'bytes',
+445 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+445 silly get     via: '1.1 varnish',
+445 silly get     age: '7577',
+445 silly get     connection: 'keep-alive',
+445 silly get     'x-served-by': 'cache-gru17126-GRU',
+445 silly get     'x-cache': 'HIT',
+445 silly get     'x-cache-hits': '3',
+445 silly get     'x-timer': 'S1518366439.373335,VS0,VE0',
+445 silly get     vary: 'Accept-Encoding, Accept' } ]
+446 verbose get saving mpath to /home/sadham/.npm/registry.npmjs.org/mpath/.cache.json
+447 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+448 silly mapToRegistry name mongoose-legacy-pluralize
+449 silly mapToRegistry using default registry
+450 silly mapToRegistry registry https://registry.npmjs.org/
+451 silly mapToRegistry data { raw: 'mongoose-legacy-pluralize',
+451 silly mapToRegistry   scope: null,
+451 silly mapToRegistry   name: 'mongoose-legacy-pluralize',
+451 silly mapToRegistry   rawSpec: '',
+451 silly mapToRegistry   spec: 'latest',
+451 silly mapToRegistry   type: 'tag' }
+452 silly mapToRegistry uri https://registry.npmjs.org/mongoose-legacy-pluralize
+453 verbose addRemoteTarball https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz not in flight; adding
+454 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz',
+454 verbose addRemoteTarball   '3ba9f91fa507b5186d399fb40854bff18fb563e4' ]
+455 info retry fetch attempt 1 at 11:27:19
+456 info attempt registry request try #1 at 11:27:19
+457 http fetch GET https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz
+458 silly mapToRegistry name kareem
+459 silly mapToRegistry using default registry
+460 silly mapToRegistry registry https://registry.npmjs.org/
+461 silly mapToRegistry data { raw: 'kareem',
+461 silly mapToRegistry   scope: null,
+461 silly mapToRegistry   name: 'kareem',
+461 silly mapToRegistry   rawSpec: '',
+461 silly mapToRegistry   spec: 'latest',
+461 silly mapToRegistry   type: 'tag' }
+462 silly mapToRegistry uri https://registry.npmjs.org/kareem
+463 verbose addRemoteTarball https://registry.npmjs.org/kareem/-/kareem-2.0.4.tgz not in flight; adding
+464 verbose addRemoteTarball [ 'https://registry.npmjs.org/kareem/-/kareem-2.0.4.tgz',
+464 verbose addRemoteTarball   '8e648733c1e45b7d5ca1cf36c364e2787f895ced' ]
+465 silly mapToRegistry name mpath
+466 silly mapToRegistry using default registry
+467 silly mapToRegistry registry https://registry.npmjs.org/
+468 silly mapToRegistry data { raw: 'mpath',
+468 silly mapToRegistry   scope: null,
+468 silly mapToRegistry   name: 'mpath',
+468 silly mapToRegistry   rawSpec: '',
+468 silly mapToRegistry   spec: 'latest',
+468 silly mapToRegistry   type: 'tag' }
+469 silly mapToRegistry uri https://registry.npmjs.org/mpath
+470 verbose addRemoteTarball https://registry.npmjs.org/mpath/-/mpath-0.3.0.tgz not in flight; adding
+471 verbose addRemoteTarball [ 'https://registry.npmjs.org/mpath/-/mpath-0.3.0.tgz',
+471 verbose addRemoteTarball   '7a58f789e9b5fd3c94520634157960f26bd5ef44' ]
+472 http 200 https://registry.npmjs.org/regexp-clone
+473 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+473 verbose headers   server: 'UploadServer',
+473 verbose headers   'cache-control': 'max-age=300',
+473 verbose headers   'last-modified': 'Wed, 17 Apr 2013 21:22:45 GMT',
+473 verbose headers   etag: '"516f12a5-7d2"',
+473 verbose headers   'x-npm-region': 'SA-East',
+473 verbose headers   'content-encoding': 'gzip',
+473 verbose headers   'content-length': '710',
+473 verbose headers   'accept-ranges': 'bytes',
+473 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+473 verbose headers   via: '1.1 varnish',
+473 verbose headers   age: '14216',
+473 verbose headers   connection: 'keep-alive',
+473 verbose headers   'x-served-by': 'cache-gru17120-GRU',
+473 verbose headers   'x-cache': 'HIT',
+473 verbose headers   'x-cache-hits': '1',
+473 verbose headers   'x-timer': 'S1518366439.384608,VS0,VE1',
+473 verbose headers   vary: 'Accept-Encoding, Accept' }
+474 silly get cb [ 200,
+474 silly get   { 'content-type': 'application/json; charset=UTF-8',
+474 silly get     server: 'UploadServer',
+474 silly get     'cache-control': 'max-age=300',
+474 silly get     'last-modified': 'Wed, 17 Apr 2013 21:22:45 GMT',
+474 silly get     etag: '"516f12a5-7d2"',
+474 silly get     'x-npm-region': 'SA-East',
+474 silly get     'content-encoding': 'gzip',
+474 silly get     'content-length': '710',
+474 silly get     'accept-ranges': 'bytes',
+474 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+474 silly get     via: '1.1 varnish',
+474 silly get     age: '14216',
+474 silly get     connection: 'keep-alive',
+474 silly get     'x-served-by': 'cache-gru17120-GRU',
+474 silly get     'x-cache': 'HIT',
+474 silly get     'x-cache-hits': '1',
+474 silly get     'x-timer': 'S1518366439.384608,VS0,VE1',
+474 silly get     vary: 'Accept-Encoding, Accept' } ]
+475 verbose get saving regexp-clone to /home/sadham/.npm/registry.npmjs.org/regexp-clone/.cache.json
+476 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+477 info retry fetch attempt 1 at 11:27:19
+478 info attempt registry request try #1 at 11:27:19
+479 http fetch GET https://registry.npmjs.org/kareem/-/kareem-2.0.4.tgz
+480 info retry fetch attempt 1 at 11:27:19
+481 info attempt registry request try #1 at 11:27:19
+482 http fetch GET https://registry.npmjs.org/mpath/-/mpath-0.3.0.tgz
+483 silly mapToRegistry name regexp-clone
+484 silly mapToRegistry using default registry
+485 silly mapToRegistry registry https://registry.npmjs.org/
+486 silly mapToRegistry data { raw: 'regexp-clone',
+486 silly mapToRegistry   scope: null,
+486 silly mapToRegistry   name: 'regexp-clone',
+486 silly mapToRegistry   rawSpec: '',
+486 silly mapToRegistry   spec: 'latest',
+486 silly mapToRegistry   type: 'tag' }
+487 silly mapToRegistry uri https://registry.npmjs.org/regexp-clone
+488 verbose addRemoteTarball https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz not in flight; adding
+489 verbose addRemoteTarball [ 'https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz',
+489 verbose addRemoteTarball   'a7c2e09891fdbf38fbb10d376fb73003e68ac589' ]
+490 http 304 https://registry.npmjs.org/ms
+491 verbose headers { date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+491 verbose headers   via: '1.1 varnish',
+491 verbose headers   'cache-control': 'max-age=300',
+491 verbose headers   etag: '"5a74cafa-4937"',
+491 verbose headers   age: '13209',
+491 verbose headers   connection: 'keep-alive',
+491 verbose headers   'x-served-by': 'cache-gru17135-GRU',
+491 verbose headers   'x-cache': 'HIT',
+491 verbose headers   'x-cache-hits': '66',
+491 verbose headers   'x-timer': 'S1518366439.408884,VS0,VE0',
+491 verbose headers   vary: 'Accept-Encoding, Accept' }
+492 silly get cb [ 304,
+492 silly get   { date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+492 silly get     via: '1.1 varnish',
+492 silly get     'cache-control': 'max-age=300',
+492 silly get     etag: '"5a74cafa-4937"',
+492 silly get     age: '13209',
+492 silly get     connection: 'keep-alive',
+492 silly get     'x-served-by': 'cache-gru17135-GRU',
+492 silly get     'x-cache': 'HIT',
+492 silly get     'x-cache-hits': '66',
+492 silly get     'x-timer': 'S1518366439.408884,VS0,VE0',
+492 silly get     vary: 'Accept-Encoding, Accept' } ]
+493 verbose etag https://registry.npmjs.org/ms from cache
+494 verbose get saving ms to /home/sadham/.npm/registry.npmjs.org/ms/.cache.json
+495 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+496 info retry fetch attempt 1 at 11:27:19
+497 info attempt registry request try #1 at 11:27:19
+498 http fetch GET https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz
+499 http 200 https://registry.npmjs.org/bson
+500 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+500 verbose headers   server: 'UploadServer',
+500 verbose headers   'cache-control': 'max-age=300',
+500 verbose headers   'last-modified': 'Wed, 7 Feb 2018 23:16:32 GMT',
+500 verbose headers   etag: '"5a7b88d0-1afb1"',
+500 verbose headers   'x-npm-region': 'SA-East',
+500 verbose headers   'content-encoding': 'gzip',
+500 verbose headers   'content-length': '10722',
+500 verbose headers   'accept-ranges': 'bytes',
+500 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+500 verbose headers   via: '1.1 varnish',
+500 verbose headers   age: '3253',
+500 verbose headers   connection: 'keep-alive',
+500 verbose headers   'x-served-by': 'cache-gru17133-GRU',
+500 verbose headers   'x-cache': 'HIT',
+500 verbose headers   'x-cache-hits': '1',
+500 verbose headers   'x-timer': 'S1518366439.410995,VS0,VE1',
+500 verbose headers   vary: 'Accept-Encoding, Accept' }
+501 silly get cb [ 200,
+501 silly get   { 'content-type': 'application/json; charset=UTF-8',
+501 silly get     server: 'UploadServer',
+501 silly get     'cache-control': 'max-age=300',
+501 silly get     'last-modified': 'Wed, 7 Feb 2018 23:16:32 GMT',
+501 silly get     etag: '"5a7b88d0-1afb1"',
+501 silly get     'x-npm-region': 'SA-East',
+501 silly get     'content-encoding': 'gzip',
+501 silly get     'content-length': '10722',
+501 silly get     'accept-ranges': 'bytes',
+501 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+501 silly get     via: '1.1 varnish',
+501 silly get     age: '3253',
+501 silly get     connection: 'keep-alive',
+501 silly get     'x-served-by': 'cache-gru17133-GRU',
+501 silly get     'x-cache': 'HIT',
+501 silly get     'x-cache-hits': '1',
+501 silly get     'x-timer': 'S1518366439.410995,VS0,VE1',
+501 silly get     vary: 'Accept-Encoding, Accept' } ]
+502 verbose get saving bson to /home/sadham/.npm/registry.npmjs.org/bson/.cache.json
+503 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+504 silly addNameRange number 2 { name: 'bson', range: '>=1.0.4 <1.1.0', hasData: true }
+505 silly addNameRange versions [ 'bson',
+505 silly addNameRange   [ '0.0.1',
+505 silly addNameRange     '0.0.2',
+505 silly addNameRange     '0.0.3',
+505 silly addNameRange     '0.0.4',
+505 silly addNameRange     '0.0.5',
+505 silly addNameRange     '0.0.6',
+505 silly addNameRange     '0.0.7',
+505 silly addNameRange     '0.0.8',
+505 silly addNameRange     '0.0.9',
+505 silly addNameRange     '0.1.0',
+505 silly addNameRange     '0.1.1',
+505 silly addNameRange     '0.1.3',
+505 silly addNameRange     '0.1.4',
+505 silly addNameRange     '0.1.5',
+505 silly addNameRange     '0.1.6',
+505 silly addNameRange     '0.1.7',
+505 silly addNameRange     '0.1.8',
+505 silly addNameRange     '0.1.9',
+505 silly addNameRange     '0.2.0',
+505 silly addNameRange     '0.2.1',
+505 silly addNameRange     '0.2.2',
+505 silly addNameRange     '0.2.3',
+505 silly addNameRange     '0.2.4',
+505 silly addNameRange     '0.2.5',
+505 silly addNameRange     '0.2.6',
+505 silly addNameRange     '0.2.7',
+505 silly addNameRange     '0.2.8',
+505 silly addNameRange     '0.2.9',
+505 silly addNameRange     '0.2.10',
+505 silly addNameRange     '0.2.11',
+505 silly addNameRange     '0.2.12',
+505 silly addNameRange     '0.2.13',
+505 silly addNameRange     '0.2.14',
+505 silly addNameRange     '0.2.15',
+505 silly addNameRange     '0.2.16',
+505 silly addNameRange     '0.2.17',
+505 silly addNameRange     '0.2.18',
+505 silly addNameRange     '0.2.19',
+505 silly addNameRange     '0.2.20',
+505 silly addNameRange     '0.2.21',
+505 silly addNameRange     '0.3.0',
+505 silly addNameRange     '0.3.1',
+505 silly addNameRange     '0.3.2',
+505 silly addNameRange     '0.4.0',
+505 silly addNameRange     '0.4.1',
+505 silly addNameRange     '0.4.2',
+505 silly addNameRange     '0.4.3',
+505 silly addNameRange     '0.4.4',
+505 silly addNameRange     '0.4.5',
+505 silly addNameRange     '0.4.6',
+505 silly addNameRange     '0.4.7',
+505 silly addNameRange     '0.4.8',
+505 silly addNameRange     '0.2.22',
+505 silly addNameRange     '0.4.10',
+505 silly addNameRange     '0.4.12',
+505 silly addNameRange     '0.4.13',
+505 silly addNameRange     '0.4.14',
+505 silly addNameRange     '0.4.15',
+505 silly addNameRange     '0.4.16',
+505 silly addNameRange     '0.4.17',
+505 silly addNameRange     '0.4.18',
+505 silly addNameRange     '0.4.19',
+505 silly addNameRange     '0.4.20',
+505 silly addNameRange     '0.4.21',
+505 silly addNameRange     '0.4.22',
+505 silly addNameRange     '0.4.23',
+505 silly addNameRange     '0.5.0',
+505 silly addNameRange     '0.5.1',
+505 silly addNameRange     '0.5.2',
+505 silly addNameRange     '0.5.3',
+505 silly addNameRange     '0.5.4',
+505 silly addNameRange     '0.5.5',
+505 silly addNameRange     '0.5.6',
+505 silly addNameRange     '0.5.7',
+505 silly addNameRange     '1.0.0',
+505 silly addNameRange     '1.0.1',
+505 silly addNameRange     '1.0.2',
+505 silly addNameRange     '1.0.3',
+505 silly addNameRange     '1.0.4' ] ]
+506 silly addNamed bson@1.0.4
+507 verbose addNamed "1.0.4" is a plain semver version for bson
+508 silly mapToRegistry name bson
+509 silly mapToRegistry using default registry
+510 silly mapToRegistry registry https://registry.npmjs.org/
+511 silly mapToRegistry data { raw: 'bson',
+511 silly mapToRegistry   scope: null,
+511 silly mapToRegistry   name: 'bson',
+511 silly mapToRegistry   rawSpec: '',
+511 silly mapToRegistry   spec: 'latest',
+511 silly mapToRegistry   type: 'tag' }
+512 silly mapToRegistry uri https://registry.npmjs.org/bson
+513 verbose addRemoteTarball https://registry.npmjs.org/bson/-/bson-1.0.4.tgz not in flight; adding
+514 verbose addRemoteTarball [ 'https://registry.npmjs.org/bson/-/bson-1.0.4.tgz',
+514 verbose addRemoteTarball   '93c10d39eaa5b58415cbc4052f3e53e562b0b72c' ]
+515 info retry fetch attempt 1 at 11:27:19
+516 info attempt registry request try #1 at 11:27:19
+517 http fetch GET https://registry.npmjs.org/bson/-/bson-1.0.4.tgz
+518 http 200 https://registry.npmjs.org/lodash.get
+519 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+519 verbose headers   server: 'UploadServer',
+519 verbose headers   'cache-control': 'max-age=300',
+519 verbose headers   'last-modified': 'Thu, 6 Oct 2016 16:47:06 GMT',
+519 verbose headers   etag: '"57f6800a-55fc"',
+519 verbose headers   'x-npm-region': 'SA-East',
+519 verbose headers   'content-encoding': 'gzip',
+519 verbose headers   'content-length': '2505',
+519 verbose headers   'accept-ranges': 'bytes',
+519 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+519 verbose headers   via: '1.1 varnish',
+519 verbose headers   age: '0',
+519 verbose headers   connection: 'keep-alive',
+519 verbose headers   'x-served-by': 'cache-gru17121-GRU',
+519 verbose headers   'x-cache': 'MISS',
+519 verbose headers   'x-cache-hits': '0',
+519 verbose headers   'x-timer': 'S1518366439.268781,VS0,VE184',
+519 verbose headers   vary: 'Accept-Encoding, Accept' }
+520 silly get cb [ 200,
+520 silly get   { 'content-type': 'application/json; charset=UTF-8',
+520 silly get     server: 'UploadServer',
+520 silly get     'cache-control': 'max-age=300',
+520 silly get     'last-modified': 'Thu, 6 Oct 2016 16:47:06 GMT',
+520 silly get     etag: '"57f6800a-55fc"',
+520 silly get     'x-npm-region': 'SA-East',
+520 silly get     'content-encoding': 'gzip',
+520 silly get     'content-length': '2505',
+520 silly get     'accept-ranges': 'bytes',
+520 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+520 silly get     via: '1.1 varnish',
+520 silly get     age: '0',
+520 silly get     connection: 'keep-alive',
+520 silly get     'x-served-by': 'cache-gru17121-GRU',
+520 silly get     'x-cache': 'MISS',
+520 silly get     'x-cache-hits': '0',
+520 silly get     'x-timer': 'S1518366439.268781,VS0,VE184',
+520 silly get     vary: 'Accept-Encoding, Accept' } ]
+521 verbose get saving lodash.get to /home/sadham/.npm/registry.npmjs.org/lodash.get/.cache.json
+522 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+523 silly mapToRegistry name lodash.get
+524 silly mapToRegistry using default registry
+525 silly mapToRegistry registry https://registry.npmjs.org/
+526 silly mapToRegistry data { raw: 'lodash.get',
+526 silly mapToRegistry   scope: null,
+526 silly mapToRegistry   name: 'lodash.get',
+526 silly mapToRegistry   rawSpec: '',
+526 silly mapToRegistry   spec: 'latest',
+526 silly mapToRegistry   type: 'tag' }
+527 silly mapToRegistry uri https://registry.npmjs.org/lodash.get
+528 verbose addRemoteTarball https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz not in flight; adding
+529 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz',
+529 verbose addRemoteTarball   '2d177f652fa31e939b4438d5341499dfa3825e99' ]
+530 http 200 https://registry.npmjs.org/sliced
+531 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+531 verbose headers   server: 'UploadServer',
+531 verbose headers   'cache-control': 'max-age=300',
+531 verbose headers   'last-modified': 'Tue, 16 Jan 2018 14:30:33 GMT',
+531 verbose headers   etag: '"5a5e0c89-2612"',
+531 verbose headers   'x-npm-region': 'SA-East',
+531 verbose headers   'content-encoding': 'gzip',
+531 verbose headers   'content-length': '1940',
+531 verbose headers   'accept-ranges': 'bytes',
+531 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+531 verbose headers   via: '1.1 varnish',
+531 verbose headers   age: '666',
+531 verbose headers   connection: 'keep-alive',
+531 verbose headers   'x-served-by': 'cache-gru17132-GRU',
+531 verbose headers   'x-cache': 'HIT',
+531 verbose headers   'x-cache-hits': '1',
+531 verbose headers   'x-timer': 'S1518366439.466053,VS0,VE1',
+531 verbose headers   vary: 'Accept-Encoding, Accept' }
+532 silly get cb [ 200,
+532 silly get   { 'content-type': 'application/json; charset=UTF-8',
+532 silly get     server: 'UploadServer',
+532 silly get     'cache-control': 'max-age=300',
+532 silly get     'last-modified': 'Tue, 16 Jan 2018 14:30:33 GMT',
+532 silly get     etag: '"5a5e0c89-2612"',
+532 silly get     'x-npm-region': 'SA-East',
+532 silly get     'content-encoding': 'gzip',
+532 silly get     'content-length': '1940',
+532 silly get     'accept-ranges': 'bytes',
+532 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+532 silly get     via: '1.1 varnish',
+532 silly get     age: '666',
+532 silly get     connection: 'keep-alive',
+532 silly get     'x-served-by': 'cache-gru17132-GRU',
+532 silly get     'x-cache': 'HIT',
+532 silly get     'x-cache-hits': '1',
+532 silly get     'x-timer': 'S1518366439.466053,VS0,VE1',
+532 silly get     vary: 'Accept-Encoding, Accept' } ]
+533 verbose get saving sliced to /home/sadham/.npm/registry.npmjs.org/sliced/.cache.json
+534 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+535 info retry fetch attempt 1 at 11:27:19
+536 info attempt registry request try #1 at 11:27:19
+537 http fetch GET https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz
+538 silly mapToRegistry name sliced
+539 silly mapToRegistry using default registry
+540 silly mapToRegistry registry https://registry.npmjs.org/
+541 silly mapToRegistry data { raw: 'sliced',
+541 silly mapToRegistry   scope: null,
+541 silly mapToRegistry   name: 'sliced',
+541 silly mapToRegistry   rawSpec: '',
+541 silly mapToRegistry   spec: 'latest',
+541 silly mapToRegistry   type: 'tag' }
+542 silly mapToRegistry uri https://registry.npmjs.org/sliced
+543 verbose addRemoteTarball https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz not in flight; adding
+544 verbose addRemoteTarball [ 'https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz',
+544 verbose addRemoteTarball   '0b3a662b5d04c3177b1926bea82b03f837a2ef41' ]
+545 info retry fetch attempt 1 at 11:27:19
+546 info attempt registry request try #1 at 11:27:19
+547 http fetch GET https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz
+548 http 200 https://registry.npmjs.org/mquery
+549 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+549 verbose headers   server: 'UploadServer',
+549 verbose headers   'cache-control': 'max-age=300',
+549 verbose headers   'last-modified': 'Thu, 8 Feb 2018 11:44:41 GMT',
+549 verbose headers   etag: '"5a7c3829-18e61"',
+549 verbose headers   'x-npm-region': 'SA-East',
+549 verbose headers   'content-encoding': 'gzip',
+549 verbose headers   'content-length': '16048',
+549 verbose headers   'accept-ranges': 'bytes',
+549 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+549 verbose headers   via: '1.1 varnish',
+549 verbose headers   age: '14216',
+549 verbose headers   connection: 'keep-alive',
+549 verbose headers   'x-served-by': 'cache-gru17128-GRU',
+549 verbose headers   'x-cache': 'HIT',
+549 verbose headers   'x-cache-hits': '2',
+549 verbose headers   'x-timer': 'S1518366439.398096,VS0,VE0',
+549 verbose headers   vary: 'Accept-Encoding, Accept' }
+550 silly get cb [ 200,
+550 silly get   { 'content-type': 'application/json; charset=UTF-8',
+550 silly get     server: 'UploadServer',
+550 silly get     'cache-control': 'max-age=300',
+550 silly get     'last-modified': 'Thu, 8 Feb 2018 11:44:41 GMT',
+550 silly get     etag: '"5a7c3829-18e61"',
+550 silly get     'x-npm-region': 'SA-East',
+550 silly get     'content-encoding': 'gzip',
+550 silly get     'content-length': '16048',
+550 silly get     'accept-ranges': 'bytes',
+550 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+550 silly get     via: '1.1 varnish',
+550 silly get     age: '14216',
+550 silly get     connection: 'keep-alive',
+550 silly get     'x-served-by': 'cache-gru17128-GRU',
+550 silly get     'x-cache': 'HIT',
+550 silly get     'x-cache-hits': '2',
+550 silly get     'x-timer': 'S1518366439.398096,VS0,VE0',
+550 silly get     vary: 'Accept-Encoding, Accept' } ]
+551 verbose get saving mquery to /home/sadham/.npm/registry.npmjs.org/mquery/.cache.json
+552 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+553 silly mapToRegistry name mquery
+554 silly mapToRegistry using default registry
+555 silly mapToRegistry registry https://registry.npmjs.org/
+556 silly mapToRegistry data { raw: 'mquery',
+556 silly mapToRegistry   scope: null,
+556 silly mapToRegistry   name: 'mquery',
+556 silly mapToRegistry   rawSpec: '',
+556 silly mapToRegistry   spec: 'latest',
+556 silly mapToRegistry   type: 'tag' }
+557 silly mapToRegistry uri https://registry.npmjs.org/mquery
+558 verbose addRemoteTarball https://registry.npmjs.org/mquery/-/mquery-3.0.0.tgz not in flight; adding
+559 verbose addRemoteTarball [ 'https://registry.npmjs.org/mquery/-/mquery-3.0.0.tgz',
+559 verbose addRemoteTarball   'e5f387dbabc0b9b69859e550e810faabe0ceabb0' ]
+560 info retry fetch attempt 1 at 11:27:19
+561 info attempt registry request try #1 at 11:27:19
+562 http fetch GET https://registry.npmjs.org/mquery/-/mquery-3.0.0.tgz
+563 http 200 https://registry.npmjs.org/mongodb
+564 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+564 verbose headers   server: 'UploadServer',
+564 verbose headers   'cache-control': 'max-age=300',
+564 verbose headers   'last-modified': 'Sat, 10 Feb 2018 23:04:31 GMT',
+564 verbose headers   etag: '"5a7f7a7f-9cf1f"',
+564 verbose headers   'x-npm-region': 'SA-East',
+564 verbose headers   'content-encoding': 'gzip',
+564 verbose headers   'content-length': '38393',
+564 verbose headers   'accept-ranges': 'bytes',
+564 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+564 verbose headers   via: '1.1 varnish',
+564 verbose headers   age: '3337',
+564 verbose headers   connection: 'keep-alive',
+564 verbose headers   'x-served-by': 'cache-gru17124-GRU',
+564 verbose headers   'x-cache': 'HIT',
+564 verbose headers   'x-cache-hits': '9',
+564 verbose headers   'x-timer': 'S1518366439.375491,VS0,VE0',
+564 verbose headers   vary: 'Accept-Encoding, Accept' }
+565 silly get cb [ 200,
+565 silly get   { 'content-type': 'application/json; charset=UTF-8',
+565 silly get     server: 'UploadServer',
+565 silly get     'cache-control': 'max-age=300',
+565 silly get     'last-modified': 'Sat, 10 Feb 2018 23:04:31 GMT',
+565 silly get     etag: '"5a7f7a7f-9cf1f"',
+565 silly get     'x-npm-region': 'SA-East',
+565 silly get     'content-encoding': 'gzip',
+565 silly get     'content-length': '38393',
+565 silly get     'accept-ranges': 'bytes',
+565 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+565 silly get     via: '1.1 varnish',
+565 silly get     age: '3337',
+565 silly get     connection: 'keep-alive',
+565 silly get     'x-served-by': 'cache-gru17124-GRU',
+565 silly get     'x-cache': 'HIT',
+565 silly get     'x-cache-hits': '9',
+565 silly get     'x-timer': 'S1518366439.375491,VS0,VE0',
+565 silly get     vary: 'Accept-Encoding, Accept' } ]
+566 verbose get saving mongodb to /home/sadham/.npm/registry.npmjs.org/mongodb/.cache.json
+567 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+568 silly mapToRegistry name mongodb
+569 silly mapToRegistry using default registry
+570 silly mapToRegistry registry https://registry.npmjs.org/
+571 silly mapToRegistry data { raw: 'mongodb',
+571 silly mapToRegistry   scope: null,
+571 silly mapToRegistry   name: 'mongodb',
+571 silly mapToRegistry   rawSpec: '',
+571 silly mapToRegistry   spec: 'latest',
+571 silly mapToRegistry   type: 'tag' }
+572 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+573 verbose addRemoteTarball https://registry.npmjs.org/mongodb/-/mongodb-3.0.2.tgz not in flight; adding
+574 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-3.0.2.tgz',
+574 verbose addRemoteTarball   '28172302ed4e9388d8091e2cc4618057e6f5debc' ]
+575 info retry fetch attempt 1 at 11:27:19
+576 info attempt registry request try #1 at 11:27:19
+577 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-3.0.2.tgz
+578 http 200 https://registry.npmjs.org/async
+579 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+579 verbose headers   server: 'UploadServer',
+579 verbose headers   'cache-control': 'max-age=300',
+579 verbose headers   'last-modified': 'Wed, 7 Feb 2018 5:03:31 GMT',
+579 verbose headers   etag: '"5a7a88a3-23477"',
+579 verbose headers   'x-npm-region': 'SA-East',
+579 verbose headers   'content-encoding': 'gzip',
+579 verbose headers   'content-length': '18392',
+579 verbose headers   'accept-ranges': 'bytes',
+579 verbose headers   date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+579 verbose headers   via: '1.1 varnish',
+579 verbose headers   age: '11434',
+579 verbose headers   connection: 'keep-alive',
+579 verbose headers   'x-served-by': 'cache-gru17128-GRU',
+579 verbose headers   'x-cache': 'HIT',
+579 verbose headers   'x-cache-hits': '61',
+579 verbose headers   'x-timer': 'S1518366439.456562,VS0,VE0',
+579 verbose headers   vary: 'Accept-Encoding, Accept' }
+580 silly get cb [ 200,
+580 silly get   { 'content-type': 'application/json; charset=UTF-8',
+580 silly get     server: 'UploadServer',
+580 silly get     'cache-control': 'max-age=300',
+580 silly get     'last-modified': 'Wed, 7 Feb 2018 5:03:31 GMT',
+580 silly get     etag: '"5a7a88a3-23477"',
+580 silly get     'x-npm-region': 'SA-East',
+580 silly get     'content-encoding': 'gzip',
+580 silly get     'content-length': '18392',
+580 silly get     'accept-ranges': 'bytes',
+580 silly get     date: 'Sun, 11 Feb 2018 16:27:19 GMT',
+580 silly get     via: '1.1 varnish',
+580 silly get     age: '11434',
+580 silly get     connection: 'keep-alive',
+580 silly get     'x-served-by': 'cache-gru17128-GRU',
+580 silly get     'x-cache': 'HIT',
+580 silly get     'x-cache-hits': '61',
+580 silly get     'x-timer': 'S1518366439.456562,VS0,VE0',
+580 silly get     vary: 'Accept-Encoding, Accept' } ]
+581 verbose get saving async to /home/sadham/.npm/registry.npmjs.org/async/.cache.json
+582 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+583 silly mapToRegistry name async
+584 silly mapToRegistry using default registry
+585 silly mapToRegistry registry https://registry.npmjs.org/
+586 silly mapToRegistry data { raw: 'async',
+586 silly mapToRegistry   scope: null,
+586 silly mapToRegistry   name: 'async',
+586 silly mapToRegistry   rawSpec: '',
+586 silly mapToRegistry   spec: 'latest',
+586 silly mapToRegistry   type: 'tag' }
+587 silly mapToRegistry uri https://registry.npmjs.org/async
+588 verbose addRemoteTarball https://registry.npmjs.org/async/-/async-2.1.4.tgz not in flight; adding
+589 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-2.1.4.tgz',
+589 verbose addRemoteTarball   '2d2160c7788032e4dd6cbe2502f1f9a2c8f6cde4' ]
+590 info retry fetch attempt 1 at 11:27:19
+591 info attempt registry request try #1 at 11:27:19
+592 http fetch GET https://registry.npmjs.org/async/-/async-2.1.4.tgz
+593 http fetch 200 https://registry.npmjs.org/mpath/-/mpath-0.3.0.tgz
+594 http fetch 200 https://registry.npmjs.org/kareem/-/kareem-2.0.4.tgz
+595 silly fetchAndShaCheck shasum 7a58f789e9b5fd3c94520634157960f26bd5ef44
+596 silly fetchAndShaCheck shasum 8e648733c1e45b7d5ca1cf36c364e2787f895ced
+597 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/mpath/-/mpath-0.3.0.tgz not in flight; adding
+598 verbose addTmpTarball already have metadata; skipping unpack for mpath@0.3.0
+599 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+600 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/kareem/-/kareem-2.0.4.tgz not in flight; adding
+601 verbose addTmpTarball already have metadata; skipping unpack for kareem@2.0.4
+602 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+603 silly cache afterAdd mpath@0.3.0
+604 verbose afterAdd /home/sadham/.npm/mpath/0.3.0/package/package.json not in flight; writing
+605 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+606 silly cache afterAdd kareem@2.0.4
+607 verbose afterAdd /home/sadham/.npm/kareem/2.0.4/package/package.json not in flight; writing
+608 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+609 verbose afterAdd /home/sadham/.npm/mpath/0.3.0/package/package.json written
+610 verbose afterAdd /home/sadham/.npm/kareem/2.0.4/package/package.json written
+611 http fetch 200 https://registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz
+612 silly fetchAndShaCheck shasum 3ba9f91fa507b5186d399fb40854bff18fb563e4
+613 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz not in flight; adding
+614 verbose addTmpTarball already have metadata; skipping unpack for mongoose-legacy-pluralize@1.0.2
+615 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+616 silly cache afterAdd mongoose-legacy-pluralize@1.0.2
+617 verbose afterAdd /home/sadham/.npm/mongoose-legacy-pluralize/1.0.2/package/package.json not in flight; writing
+618 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+619 http fetch 200 https://registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz
+620 silly fetchAndShaCheck shasum a7c2e09891fdbf38fbb10d376fb73003e68ac589
+621 verbose afterAdd /home/sadham/.npm/mongoose-legacy-pluralize/1.0.2/package/package.json written
+622 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/regexp-clone/-/regexp-clone-0.0.1.tgz not in flight; adding
+623 verbose addTmpTarball already have metadata; skipping unpack for regexp-clone@0.0.1
+624 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+625 http fetch 200 https://registry.npmjs.org/bson/-/bson-1.0.4.tgz
+626 http fetch 200 https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz
+627 silly fetchAndShaCheck shasum 2d177f652fa31e939b4438d5341499dfa3825e99
+628 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz not in flight; adding
+629 verbose addTmpTarball already have metadata; skipping unpack for lodash.get@4.4.2
+630 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+631 silly cache afterAdd lodash.get@4.4.2
+632 verbose afterAdd /home/sadham/.npm/lodash.get/4.4.2/package/package.json not in flight; writing
+633 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+634 verbose afterAdd /home/sadham/.npm/lodash.get/4.4.2/package/package.json written
+635 http fetch 200 https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz
+636 silly fetchAndShaCheck shasum 0b3a662b5d04c3177b1926bea82b03f837a2ef41
+637 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/sliced/-/sliced-1.0.1.tgz not in flight; adding
+638 verbose addTmpTarball already have metadata; skipping unpack for sliced@1.0.1
+639 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+640 http fetch 200 https://registry.npmjs.org/mquery/-/mquery-3.0.0.tgz
+641 http fetch 200 https://registry.npmjs.org/async/-/async-2.1.4.tgz
+642 http fetch 200 https://registry.npmjs.org/mongodb/-/mongodb-3.0.2.tgz
+643 silly cache afterAdd sliced@1.0.1
+644 verbose afterAdd /home/sadham/.npm/sliced/1.0.1/package/package.json not in flight; writing
+645 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+646 verbose afterAdd /home/sadham/.npm/sliced/1.0.1/package/package.json written
+647 silly cache afterAdd regexp-clone@0.0.1
+648 verbose afterAdd /home/sadham/.npm/regexp-clone/0.0.1/package/package.json not in flight; writing
+649 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+650 verbose afterAdd /home/sadham/.npm/regexp-clone/0.0.1/package/package.json written
+651 silly fetchAndShaCheck shasum e5f387dbabc0b9b69859e550e810faabe0ceabb0
+652 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/mquery/-/mquery-3.0.0.tgz not in flight; adding
+653 verbose addTmpTarball already have metadata; skipping unpack for mquery@3.0.0
+654 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+655 silly cache afterAdd mquery@3.0.0
+656 verbose afterAdd /home/sadham/.npm/mquery/3.0.0/package/package.json not in flight; writing
+657 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+658 verbose afterAdd /home/sadham/.npm/mquery/3.0.0/package/package.json written
+659 silly cache afterAdd ms@2.0.0
+660 verbose afterAdd /home/sadham/.npm/ms/2.0.0/package/package.json not in flight; writing
+661 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+662 verbose afterAdd /home/sadham/.npm/ms/2.0.0/package/package.json written
+663 silly fetchAndShaCheck shasum 93c10d39eaa5b58415cbc4052f3e53e562b0b72c
+664 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/bson/-/bson-1.0.4.tgz not in flight; adding
+665 verbose addTmpTarball already have metadata; skipping unpack for bson@1.0.4
+666 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+667 silly cache afterAdd bson@1.0.4
+668 verbose afterAdd /home/sadham/.npm/bson/1.0.4/package/package.json not in flight; writing
+669 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+670 verbose afterAdd /home/sadham/.npm/bson/1.0.4/package/package.json written
+671 silly fetchAndShaCheck shasum 2d2160c7788032e4dd6cbe2502f1f9a2c8f6cde4
+672 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/async/-/async-2.1.4.tgz not in flight; adding
+673 verbose addTmpTarball already have metadata; skipping unpack for async@2.1.4
+674 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+675 silly fetchAndShaCheck shasum 28172302ed4e9388d8091e2cc4618057e6f5debc
+676 verbose addTmpTarball /tmp/npm-6549-665ba4e2/registry.npmjs.org/mongodb/-/mongodb-3.0.2.tgz not in flight; adding
+677 verbose addTmpTarball already have metadata; skipping unpack for mongodb@3.0.2
+678 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+679 silly cache afterAdd mongodb@3.0.2
+680 verbose afterAdd /home/sadham/.npm/mongodb/3.0.2/package/package.json not in flight; writing
+681 verbose correctMkdir /home/sadham/.npm correctMkdir not in flight; initializing
+682 verbose afterAdd /home/sadham/.npm/mongodb/3.0.2/package/package.json written
+683 verbose about to build /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+684 verbose unlock done using /home/sadham/.npm/_locks/mongoose-0aba830b3356456f.lock for /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+685 verbose stack Error: EACCES, mkdir '/home/sadham/.npm/async/2.1.4'
+686 verbose cwd /home/sadham/Documentos/nirex/app/myapp
+687 error Linux 3.16.0-53-generic
+688 error argv "/usr/bin/node" "/usr/bin/npm" "install" "mongoose"
+689 error node v0.10.48
+690 error npm  v2.15.1
+691 error path /home/sadham/.npm/async/2.1.4
+692 error code EACCES
+693 error errno 3
+694 error Error: EACCES, mkdir '/home/sadham/.npm/async/2.1.4'
+694 error  { [Error: EACCES, mkdir '/home/sadham/.npm/async/2.1.4']
+694 error   errno: 3,
+694 error   code: 'EACCES',
+694 error   path: '/home/sadham/.npm/async/2.1.4',
+694 error   parent: 'mongoose' }
+695 error Please try running this command again as root/Administrator.
+696 verbose exit [ 3, true ]
+697 verbose unbuild node_modules/mongoose
+698 info preuninstall mongoose@5.0.4
+699 info uninstall mongoose@5.0.4
+700 verbose unbuild rmStuff mongoose@5.0.4 from /home/sadham/Documentos/nirex/app/myapp/node_modules
+701 info postuninstall mongoose@5.0.4
+702 silly gentlyRm /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose is being purged from base /home/sadham/Documentos/nirex/app/myapp
+703 verbose gentlyRm don't care about contents; nuking /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+704 silly vacuum-fs purging /home/sadham/Documentos/nirex/app/myapp/node_modules/mongoose
+705 silly vacuum-fs quitting because other entries in /home/sadham/Documentos/nirex/app/myapp/node_modules
